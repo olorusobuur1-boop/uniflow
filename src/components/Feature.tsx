@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import dashboard from "../assets/images/dashboard.png"
 import cgpa from "../assets/images/cgpa.png"
 import timetable from "../assets/images/timetable.png"
