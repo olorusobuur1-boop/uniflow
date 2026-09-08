@@ -201,6 +201,9 @@ select{
     margin: 20px;
     flex-direction: row;
 }
+section{
+    padding: 20px 0;
+}
 /* media query */
 @media (max-width:899px) {
     .desktop-screen{
