@@ -6,7 +6,7 @@ import timetable from "../assets/images/timetable.png"
 const Feature = () => {
   return (
     <>
-      <section>
+      <section className='feature-section'>
         <h3 className='ft'>Features</h3>
         <div className="wrapper">
         <div className="feature-container">

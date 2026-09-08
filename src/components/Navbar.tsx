@@ -4,6 +4,7 @@ import logo from "../assets/images/uniflow-logo.png"
 import MenuIcon from '@mui/icons-material/Menu';
 
 import "./Navbar.css"
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,8 +29,9 @@ const Navbar = () => {
                 </nav>
             </div>
             <div>
-                <a className='login-btn'>Log In</a>
-                <a className='btn'>Sign Up Free</a>
+                <Link to="/login" className='login-btn'>Log In</Link>
+                <Link to="/login" className="btn">Sign Up Free</Link>
+
             </div>
         </div>
             {/* menu icon */}
@@ -51,8 +53,8 @@ const Navbar = () => {
                         </nav>
                     </div>
                     <div>
-                        <a className='login-btn'>Log In</a>
-                        <a className="btn">Sign Up Free</a>
+                        <Link to="/login" className='login-btn'>Log In</Link>
+                        <Link to="/login" className="btn">Sign Up Free</Link>
                     </div>
                 </div>
                 
