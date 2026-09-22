@@ -372,5 +372,21 @@ aside li:hover{
     .log-out-btn{
         display: none;
     }
-    
+    aside{
+        position: fixed;
+        top: auto;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        max-height: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e0d7d7;
+    }
+    aside ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+    }
 }
